@@ -21,7 +21,7 @@ I’m looking for opportunities to apply my skills to real-world problems and gr
 machine learning and MLOps.
 
 * 🌍  I'm based in Russia, Ulyanovsk
-* ✉️  You can contact me at [daniilkarcev767580@gmail.com](mailto:daniilkarcev767580@gmail.com) and [🌐 Visit My Portfolio](https://t.me/DanKrzv)
+* ✉️  You can contact me at [daniilkarcev767580@gmail.com](mailto:daniilkarcev767580@gmail.com) and [Telegram](https://t.me/DanKrzv)
 * 🧠  I'm currently learning I’m currently learning new skills in machine learning and deep learning.
 
 
