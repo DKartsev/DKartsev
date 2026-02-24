@@ -1,113 +1,90 @@
-Hi!
-My name is Daniil
-===============================================================================================================================
+# AI Developer - Daniil Kartsev
 
-ML Engineer
------------
+## Профиль
+AI Developer, фокус на прикладных AI-продуктах: LLM/RAG, чат-ассистенты, аналитика использования моделей, а также ML/CV/RL-исследования в формате reproducible notebook-проектов.
 
-I'm a beginner Machine Learning Engineer passionate about building and training deep learning models.
+- GitHub: [github.com/DKartsev](https://github.com/DKartsev)
+- Публичных репозиториев: 46 (на 24 февраля 2026)
+- Ключевой стек: Python, Dart/Flutter, TypeScript, Jupyter Notebook, SQL, API-интеграции
 
-I’m actively exploring modern approaches in computer vision, NLP, and generative models.
+## Pet project -  AIChatFlutter
+[AIChatFlutter](https://github.com/DKartsev/AIChatFlutter) - мультиплатформенное AI-чат-приложение на Flutter (Android/iOS/Desktop) с рабочей продуктовой архитектурой.
 
-I have hands-on experience developing and tuning neural networks in \*\*Python\*\* using
+Что реализовано:
+- Многостраничный UX (4 экрана): главная страница чата, настройки провайдера, статистика токенов, расходы по дням.
+- Переключение AI-провайдера в UI: OpenRouter и VSEGPT.
+- Безопасный ввод и хранение API-ключей и base URL для каждого провайдера.
+- Подсчет токенов и стоимости по сообщениям/моделям.
+- Визуальная аналитика: агрегаты по моделям + график дневных расходов.
+- Локальное хранение истории (SQLite), экспорт истории и логов.
+- Обработка ошибок API и fallback-модели при неполной конфигурации.
 
-TensorFlow, Keras, PyTorch, OpenCV, scikit-learn, and XGBoost.
+Технологии проекта:
+- Flutter, Provider, HTTP, SharedPreferences, sqflite, flutter_dotenv.
 
-I’ve worked on several pet projects, including image classification, text analysis,
+## Портфолио по группам
 
-and implementing a RAG (Retrieval-Augmented Generation) architecture.
+### LLM, RAG, агенты и боты
+- [HybridRAG_Platform](https://github.com/DKartsev/HybridRAG_Platform) - эксперименты с гибридным RAG-подходом.
+- [rag_security_nemo_guardrails](https://github.com/DKartsev/rag_security_nemo_guardrails) - RAG + guardrails/безопасность.
+- [knowledge_graph_gradio](https://github.com/DKartsev/knowledge_graph_gradio) - knowledge graph + Gradio интерфейс.
+- [-RAG-Service-Architecture-Implementation](https://github.com/DKartsev/-RAG-Service-Architecture-Implementation) - сервисная архитектура RAG для Telegram-бота.
+- [telegram-openai-agentkit](https://github.com/DKartsev/telegram-openai-agentkit) - агентный Telegram-бот.
+- [telegram-openai-agentkit-1](https://github.com/DKartsev/telegram-openai-agentkit-1) - fork AgentKit-обертки для Telegram.
+- [bot-test](https://github.com/DKartsev/bot-test) - экспериментальный бот-проект на TypeScript.
+- [Testquizbot](https://github.com/DKartsev/Testquizbot) - Telegram quiz bot.
+- [ESL-AI-Test](https://github.com/DKartsev/ESL-AI-Test) - AI-проект для языкового тестирования.
+- [bert_dialogue_bot](https://github.com/DKartsev/bert_dialogue_bot) - диалоговый бот на BERT.
+- [Chatbot_transformer](https://github.com/DKartsev/Chatbot_transformer) - чатбот на Transformer-архитектуре.
+- [headline_generation_ru](https://github.com/DKartsev/headline_generation_ru) - генерация заголовков на русском языке.
+- [Saiga-CPU-Evaluation](https://github.com/DKartsev/Saiga-CPU-Evaluation) - оценка качества/производительности LLM на CPU.
 
-I’m looking for opportunities to apply my skills to real-world problems and grow in the fields of
+### Computer Vision и мультимодальные модели
+- [Cat-and-Dog-Image-Classification-Using-MobileNet](https://github.com/DKartsev/Cat-and-Dog-Image-Classification-Using-MobileNet) - классификация кошек и собак на MobileNet.
+- [Classification-of-dog-breeds-using-EfficientNetV2B0](https://github.com/DKartsev/Classification-of-dog-breeds-using-EfficientNetV2B0) - классификация пород собак на EfficientNetV2B0.
+- [Covid19_unet](https://github.com/DKartsev/Covid19_unet) - сегментация медицинских изображений с U-Net.
+- [DCGAN-Comparison-on-Fashion-MNIST](https://github.com/DKartsev/DCGAN-Comparison-on-Fashion-MNIST) - сравнение DCGAN-подходов на Fashion-MNIST.
+- [Glasses-Overlay-with-Focus-Blur](https://github.com/DKartsev/Glasses-Overlay-with-Focus-Blur) - CV-эффекты: наложение очков и размытие фона.
+- [handwritten-letters-classification](https://github.com/DKartsev/handwritten-letters-classification) - классификация рукописных символов.
+- [MNIST-Sketch-Classifier](https://github.com/DKartsev/MNIST-Sketch-Classifier) - классификация рукописных цифр.
+- [yolov3_chess](https://github.com/DKartsev/yolov3_chess) - детекция шахматных фигур с YOLOv3.
+- [Image-Captioning](https://github.com/DKartsev/Image-Captioning) - генерация текстовых описаний изображений.
+- [Im2LaTeX-Seq2Seq-with-Attention](https://github.com/DKartsev/Im2LaTeX-Seq2Seq-with-Attention) - преобразование формул из изображения в LaTeX.
+- [ClearMark-Autoencoder](https://github.com/DKartsev/ClearMark-Autoencoder) - автоэнкодер для восстановления/очистки изображений.
 
-machine learning and MLOps.
+### Reinforcement Learning и управление
+- [atari_policy_gradient_colab](https://github.com/DKartsev/atari_policy_gradient_colab) - обучение policy gradient-агента на Atari.
+- [Pong_DQN_FC_1channel](https://github.com/DKartsev/Pong_DQN_FC_1channel) - DQN для Pong с одноканальным входом.
+- [acrobot_mc_control](https://github.com/DKartsev/acrobot_mc_control) - управление Acrobot с методами RL/MC-control.
+- [reinforce_parallel_pybullet](https://github.com/DKartsev/reinforce_parallel_pybullet) - параллельное обучение REINFORCE в средах PyBullet.
 
-* 🌍  I'm based in Russia, Ulyanovsk
-* ✉️  You can contact me at [daniilkarcev767580@gmail.com](mailto:daniilkarcev767580@gmail.com) and [Telegram](https://t.me/DanKrzv)
-* 🧠  I'm currently learning I’m currently learning new skills in machine learning and deep learning.
+### NLP, классификация и аналитика данных
+- [fake-news-detector](https://github.com/DKartsev/fake-news-detector) - детекция фейковых новостей.
+- [IMDB-Movie-Reviews-Classifier](https://github.com/DKartsev/IMDB-Movie-Reviews-Classifier) - классификация тональности отзывов IMDB.
+- [City-Issue-Classification-Model](https://github.com/DKartsev/City-Issue-Classification-Model) - классификация городских обращений по категориям.
+- [Neural-Stylometry-Authorship-Classification-in-Russian-Literature](https://github.com/DKartsev/Neural-Stylometry-Authorship-Classification-in-Russian-Literature) - стилометрия и определение авторства в русской литературе.
+- [HAR-UCI-Smartphone-Dataset-Baseline-vs-Transformer-vs-Attention](https://github.com/DKartsev/HAR-UCI-Smartphone-Dataset-Baseline-vs-Transformer-vs-Attention) - сравнение baseline, Transformer и Attention на HAR-датасете.
+- [DEC-vs-k-means](https://github.com/DKartsev/DEC-vs-k-means) - сравнение методов кластеризации DEC и k-means.
 
+### Временные ряды и tabular ML
+- [AAPL-time-series-forecasting](https://github.com/DKartsev/AAPL-time-series-forecasting) - прогноз временного ряда акций Apple.
+- [Japanese-Car-Price-Prediction](https://github.com/DKartsev/Japanese-Car-Price-Prediction) - предсказание стоимости автомобилей по признакам.
+- [parkinsons-xgboost-classifier](https://github.com/DKartsev/parkinsons-xgboost-classifier) - классификатор болезни Паркинсона на XGBoost.
+- [Shopping-List-Model-API](https://github.com/DKartsev/Shopping-List-Model-API) - API-модель для задач, связанных со списками покупок.
 
-### Socials
+### Audio/Speech
+- [speech_toolkit_lid_tts_loudness](https://github.com/DKartsev/speech_toolkit_lid_tts_loudness) - toolkit для LID, TTS и нормализации громкости.
+- [Neural-Music-Generation](https://github.com/DKartsev/Neural-Music-Generation) - генерация музыкальных последовательностей нейросетями.
 
-<p align="left"> <a href="https://www.github.com/DKartsev" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a></p>
-### Badges
+### Приложения, утилиты и прочие репозитории
+- [FLET](https://github.com/DKartsev/FLET) - эксперименты с Python/Flet-приложениями.
+- [esperanto-leto-miniapp](https://github.com/DKartsev/esperanto-leto-miniapp) - miniapp-проект на TypeScript.
+- [DKartsev-Java](https://github.com/DKartsev/DKartsev-Java) - тестовое задание по Java.
+- [DKartsev](https://github.com/DKartsev/DKartsev) - профильный/служебный репозиторий аккаунта.
+- [CHEAT](https://github.com/DKartsev/CHEAT) - рабочие заметки и справочные материалы.
 
-<b>My GitHub Stats</b>
-
-<a href="http://www.github.com/DKartsev"><img src="https://github-readme-stats.vercel.app/api?username=DKartsev&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="DKartsev's GitHub stats" /></a>
-
-
-
-## 📝 My Learning Projects
-
-### 🖼 Computer Vision
-
-#### 🐶 Classification of Dog Breeds using EfficientNetV2B0
-A deep learning project for **classifying dog breeds** using the **pre-trained EfficientNetV2B0** model.  
-- Dataset: **Stanford Dogs Dataset** (120 dog breeds)  
-- Training strategy:  
-  1. Train top layers with the base model frozen  
-  2. Fine-tune top layers after unfreezing for higher accuracy  
-- Implemented in **Google Colab** using **Keras 3.10**
-
-#### 🐱 Cat and Dog Image Classification Using MobileNet
-A CNN project for **classifying images of cats and dogs** using the **pre-trained MobileNet** model.  
-- Dataset: split into training, validation, and test sets  
-- Techniques: **image augmentation** to improve generalization  
-- Achieves **high accuracy** and performs well on new data  
-
-#### 🕶 Glasses Overlay with Focus Blur
-A computer vision project for **overlaying glasses on faces with background blur**.  
-- Face and eye detection using **OpenCV**  
-- Creates a **mask for the face** and blurs background while keeping eyes in focus  
-- Overlays glasses with **semi-transparent lenses**  
-- Visualizes the final result in **Google Colab**
-
-#### ✍ Handwritten Letters Classification
-Recognition of **handwritten English letters (A–Z)** using a fully connected neural network.  
-- Dataset: 28×28 pixel images of handwritten letters  
-- Implemented in **Keras**  
-- Evaluated accuracy on test set
-
----
-
-### 📝 Natural Language Processing (NLP)
-
-#### 🎬 IMDB Movie Reviews Classifier
-A text classification project for **binary sentiment analysis** (positive/negative) on IMDB reviews.  
-- Uses **transformers** (RoBERTa/BERT/DeBERTa) with **Trainer** API  
-- Includes **data preparation, tokenization, training with early stopping, evaluation, checkpointing, and exporting predictions**  
-- Easy to switch model parameters (e.g., `deberta-v3-small`) for experiments  
-
-#### 📰 Fake News Detector
-ML project to detect **fake vs real news**.  
-- Text processing using **TF-IDF**  
-- Classification with **PassiveAggressiveClassifier**  
-- Comparison of different models, visualization of metrics  
-- Achieved **accuracy >90%**  
-- Dataset: **Twitter Sentiment Dataset** (`text`, `label`)  
-- Technologies: Python, pandas, scikit-learn, matplotlib, seaborn
-
-#### 🤖 RAG Service Architecture Implementation
-Implementation of **Retrieval-Augmented Generation (RAG)** for text generation.  
-- Retrieval: searches relevant information in a knowledge base  
-- Augmented: supplements context for LLM  
-- Generation: produces answers based on retrieved data  
-- Benefits: accuracy, freshness, transparency, and controllable knowledge
-
----
-
-### ⚡ Other / ML Applications
-
-#### 🧪 Parkinson's XGBoost Classifier
-A **binary classification project** for predicting Parkinson's disease based on biomedical voice features.  
-- Data from **UCI Machine Learning Repository**  
-- Steps: data loading, preprocessing, normalization, train-test split  
-- Model: **XGBoost**  
-- Evaluated performance with accuracy and metrics
-
-#### 🎯 TestQuizBot
-Telegram **quiz bot** with intelligent interface and scoring system.  
-- 10 engaging questions with multiple choices  
-- Score calculation and participant statistics  
-- Ability to retake quizzes  
-- Interactive and adaptive inline buttons with emojis  
+## Что я делаю как AI Developer
+- Разрабатываю AI-продукты end-to-end: от идеи и прототипа до интерфейса и аналитики.
+- Интегрирую LLM API и строю прикладные сценарии (чат, RAG, бот-автоматизация).
+- Проектирую хранение данных, метрики использования и cost-aware аналитику.
+- Поддерживаю исследовательский контур: CV, NLP, RL, генеративные и классификационные модели.
